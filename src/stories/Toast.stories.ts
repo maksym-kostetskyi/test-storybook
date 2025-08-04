@@ -4,7 +4,7 @@ import { Toast } from "../components/Toast/Toast";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: "Example/Toast",
+  title: "Components/Toast",
   component: Toast,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
@@ -143,56 +143,6 @@ export const TopLeft: Story = {
     message: "Toast positioned at top-left",
     type: "info",
     position: "top-left",
-    visible: true,
-    duration: 4000,
-  },
-};
-
-export const TopCenter: Story = {
-  args: {
-    message: "Toast positioned at top-center",
-    type: "success",
-    position: "top-center",
-    visible: true,
-    duration: 4000,
-  },
-};
-
-export const TopRight: Story = {
-  args: {
-    message: "Toast positioned at top-right",
-    type: "warning",
-    position: "top-right",
-    visible: true,
-    duration: 4000,
-  },
-};
-
-export const BottomLeft: Story = {
-  args: {
-    message: "Toast positioned at bottom-left",
-    type: "warning",
-    position: "bottom-left",
-    visible: true,
-    duration: 4000,
-  },
-};
-
-export const BottomCenter: Story = {
-  args: {
-    message: "Toast positioned at bottom-center",
-    type: "error",
-    position: "bottom-center",
-    visible: true,
-    duration: 4000,
-  },
-};
-
-export const BottomRight: Story = {
-  args: {
-    message: "Toast positioned at bottom-right",
-    type: "success",
-    position: "bottom-right",
     visible: true,
     duration: 4000,
   },
