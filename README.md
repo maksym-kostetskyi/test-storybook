@@ -85,17 +85,17 @@ A sophisticated navigation component with nested menu support:
 
 ## 📸 Component Screenshots
 
-### Input Component States
+### Input Component
 
-- **Password Toggle**
+- **Password Input**
 
   ![Input Password](src/assets/screenshots/input-password.png)
 
-- **Error State**
+- **Input With Clear**
 
   ![Input With Clear](src/assets/screenshots/input-clear.png)
 
-### Toast Component Types
+### Toast Component
 
 - **Success Toast**
 
@@ -105,13 +105,13 @@ A sophisticated navigation component with nested menu support:
 
   ![Toast Error](src/assets/screenshots/toast-error.png)
 
-### SidebarMenu States
+### Sidebar Menu Component
 
-- **Closed State**
+- **With One Level Nesting**
 
   ![Sidebar One Level Nested](src/assets/screenshots/sidebar-one.png)
 
-- **Open State**
+- **With Two Levels Nesting**
 
   ![Sidebar Two Levels Nested](src/assets/screenshots/sidebar-two.png)
 
