@@ -1,0 +1,69 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Welcome/About" />
+
+# React Component Library with Storybook
+
+A comprehensive collection of reusable React components built with TypeScript and documented with Storybook. This library includes interactive UI components for modern web applications.
+
+## 📦 Components Overview
+
+### 🔤 Input Component
+
+A versatile input field component with advanced features:
+
+- **Password visibility toggle** with eye icon
+- **Clear button** functionality for quick input reset
+- **Multiple input types** (text, password, number, email)
+- **Size variations** (small, medium, large)
+- **State management** (default, error, success, disabled)
+- **TypeScript support** with comprehensive prop interfaces
+
+### 🔔 Toast Component
+
+A notification component for user feedback:
+
+- **4 notification types** (success, error, warning, info)
+- **6 positioning options** (top/bottom + left/center/right)
+- **Auto-dismiss functionality** with customizable duration
+- **Manual close button** option
+- **Smooth animations** for appear/disappear transitions
+- **Responsive design** that adapts to screen size
+
+### 📋 SidebarMenu Component
+
+A sophisticated navigation component with nested menu support:
+
+- **Slide-in animation** from the right side
+- **Multi-level nesting** (flat, 1-level, 2-level hierarchies)
+- **Accordion-style expansion** for parent menu items
+- **Backdrop close functionality** with overlay
+- **Keyboard navigation** (ESC key support)
+- **Responsive behavior** for mobile devices
+
+## 📝 Development
+
+### Adding New Components
+
+1. Create component folder in `src/components/`
+2. Implement component with TypeScript interfaces
+3. Create corresponding CSS file
+4. Add Storybook stories in `src/stories/`
+5. Export component and types
+
+### Component Structure
+
+```
+src/components/ComponentName/
+├── ComponentName.tsx    # Main component file
+├── component-name.css   # Component styles
+└── index.ts            # Export file (optional)
+```
+
+### Story Structure
+
+```
+src/stories/
+├── ComponentName.stories.tsx  # Storybook stories
+└── assets/                   # Story assets
+```

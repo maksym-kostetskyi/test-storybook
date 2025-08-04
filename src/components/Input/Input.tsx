@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./input.css";
-import eyeIcon from "../../assets/eye.png";
-import eyeCrossedIcon from "../../assets/eye-crossed.png";
+import eyeIcon from "../../stories/assets/eye.png";
+import eyeCrossedIcon from "../../stories/assets/eye-crossed.png";
 
 export interface InputProps {
   /**
